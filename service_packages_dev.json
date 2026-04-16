@@ -6,20 +6,20 @@
       "notes": "Development service package",
       "components": {
         "topside_gui": {
-          "version": "v26.04.15",
-          "git_ref": "a06d91af672eabf88f6559c3efdbac3407e5fb58"
+          "version": "v26.04.18",
+          "git_ref": "72b45b6baeab3e1d3c8cdee895bf9bddbcc63be5"
         },
         "web_portal": {
-          "version": "v26.04.15",
-          "git_ref": "a06d91af672eabf88f6559c3efdbac3407e5fb58"
+          "version": "v26.04.18",
+          "git_ref": "72b45b6baeab3e1d3c8cdee895bf9bddbcc63be5"
         },
         "CMB": {
-          "version": "3.0.44-stable",
-          "tag": "CMB-v3.0.44-stable"
+          "version": "3.0.44-beta",
+          "tag": "CMB-v3.0.44-beta"
         },
         "CMM": {
-          "version": "3.0.12-stable",
-          "tag": "CMM-v3.0.12-stable"
+          "version": "3.0.12-rc",
+          "tag": "CMM-v3.0.12-rc"
         },
         "CMB-TS": {
           "version": "3.0.44-stable",
