@@ -1,0 +1,31 @@
+{
+  "latest": "SP-2026.04.1",
+  "packages": {
+    "SP-2026.04.1": {
+      "released": "2026-04-16",
+      "notes": "Initial service package",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.4",
+          "git_ref": "e4c04e4e834f6cfe8f00b0c9f5bea9c2b1c86577"
+        },
+        "web_portal": {
+          "version": "v26.04.1",
+          "git_ref": "e4c04e4e834f6cfe8f00b0c9f5bea9c2b1c86577"
+        },
+        "CMB": {
+          "version": "3.0.44-stable",
+          "tag": "CMB-v3.0.44-stable"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
+        "CMB-TS": {
+          "version": "",
+          "tag": ""
+        }
+      }
+    }
+  }
+}
