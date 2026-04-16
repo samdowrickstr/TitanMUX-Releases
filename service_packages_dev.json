@@ -76,6 +76,10 @@
         "CMB-TS": {
           "version": "3.0.44-stable",
           "tag": "CMB-TS-v3.0.44-stable"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
         }
       }
     }
