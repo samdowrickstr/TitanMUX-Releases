@@ -58,12 +58,12 @@
       "notes": "Remote PIC Updates",
       "components": {
         "topside_gui": {
-          "version": "v26.04.23",
-          "git_ref": "788a8a09897d05212b0cb79df2ba8986c7fd58b0"
+          "version": "v26.04.24",
+          "git_ref": "bd0bb7b33b1333692dc9d1c6b67513b93d2427e5"
         },
         "web_portal": {
-          "version": "v26.04.23",
-          "git_ref": "788a8a09897d05212b0cb79df2ba8986c7fd58b0"
+          "version": "v26.04.24",
+          "git_ref": "bd0bb7b33b1333692dc9d1c6b67513b93d2427e5"
         },
         "CMB": {
           "version": "3.0.45-rc",
