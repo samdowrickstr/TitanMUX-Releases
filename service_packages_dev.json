@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.2-dev",
+  "latest": "SP-2026.04.3-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -42,6 +42,32 @@
         "CMB": {
           "version": "3.0.44-stable",
           "tag": "CMB-v3.0.44-stable"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
+        "CMB-TS": {
+          "version": "3.0.44-stable",
+          "tag": "CMB-TS-v3.0.44-stable"
+        }
+      }
+    },
+    "SP-2026.04.3-dev": {
+      "released": "2026-04-16",
+      "notes": "Remote PIC Updates",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.23",
+          "git_ref": "788a8a09897d05212b0cb79df2ba8986c7fd58b0"
+        },
+        "web_portal": {
+          "version": "v26.04.23",
+          "git_ref": "788a8a09897d05212b0cb79df2ba8986c7fd58b0"
+        },
+        "CMB": {
+          "version": "3.0.45-rc",
+          "tag": "CMB-v3.0.45-rc"
         },
         "CMM": {
           "version": "3.0.12-stable",
