@@ -26,6 +26,7 @@ FIRMWARE_REPOS = {
     "CMB": "samdowrickstr/MUX-Firmware-Release-CMB",
     "CMM": "samdowrickstr/MUX-Firmware-Release-CMM",
     "CMB-TS": "samdowrickstr/MUX-Firmware-Release-CMB-TS",
+    "PIC": "samdowrickstr/MUX-Firmware-Release-PIC",
 }
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -253,7 +254,7 @@ class PackageEditor(QWidget):
         fw = QGroupBox("Firmware Components")
         fl2 = QFormLayout()
         self.fw_combos: dict[str, QComboBox] = {}
-        for board in ("CMB", "CMM", "CMB-TS"):
+        for board in ("CMB", "CMM", "CMB-TS", "PIC"):
             c = QComboBox()
             c.addItem("(none)")
             self.fw_combos[board] = c
