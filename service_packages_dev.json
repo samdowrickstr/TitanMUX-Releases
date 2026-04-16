@@ -44,8 +44,8 @@
           "tag": "CMB-v3.0.44-stable"
         },
         "CMM": {
-          "version": "3.0.12-rc",
-          "tag": "CMM-v3.0.12-rc"
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
         },
         "CMB-TS": {
           "version": "3.0.44-stable",
