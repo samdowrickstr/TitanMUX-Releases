@@ -12,8 +12,8 @@ The TitanMUX system is made up of the following independently versioned componen
 
 | Component | Versioning Scheme | Source | Update Method |
 |-----------|------------------|--------|---------------|
-| **Topside GUI** | CalVer (`vYY.MM.CC`) | [TitanMUX](https://github.com/samdowrickstr/TitanMUX) repo, `MUX GUI/*.py` | `git reset --hard <commit>` |
-| **Web Portal** | CalVer (`vYY.MM.CC`) | [TitanMUX](https://github.com/samdowrickstr/TitanMUX) repo, `MUX GUI/webgui/` | `git reset --hard <commit>` (same repo, path-filtered version) |
+| **Topside GUI** | CalVer (`vYY.MM.CC`) | [MUX-GUI](https://github.com/Subsea-Technology-Rentals/MUX-GUI) repo, `*.py` | `git reset --hard <commit>` |
+| **Web Portal** | CalVer (`vYY.MM.CC`) | [MUX-GUI](https://github.com/Subsea-Technology-Rentals/MUX-GUI) repo, `webgui/` | `git reset --hard <commit>` (same repo, path-filtered version) |
 | **CMB Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMB](https://github.com/samdowrickstr/MUX-Firmware-Release-CMB) | GitHub release download → TFTP upload |
 | **CMM Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMM](https://github.com/samdowrickstr/MUX-Firmware-Release-CMM) | GitHub release download → TFTP upload |
 | **CMB-TS Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMB-TS](https://github.com/samdowrickstr/MUX-Firmware-Release-CMB-TS) | GitHub release download → TFTP upload |
@@ -90,9 +90,9 @@ The source of truth is [`service_packages.json`](service_packages.json) in this 
 ### Creating a New Service Package (Developer Workflow)
 
 1. **Test the combination** — Verify that the current GUI commit works correctly with the current firmware versions across all board types.
-2. **Record the git commit hash** of the TitanMUX repo:
+2. **Record the git commit hash** of the MUX-GUI repo:
    ```bash
-   cd "MUX GUI"
+   cd MUX-GUI
    git rev-parse HEAD
    ```
 3. **Record the firmware versions** from the latest GitHub releases for CMB, CMM, and CMB-TS.
@@ -107,7 +107,7 @@ When a user presses **"Update All"** in the GUI:
 1. The GUI fetches `service_packages.json` from this repository via the GitHub API.
 2. It compares each component's installed version against what the latest SP specifies.
 3. For components that need updating:
-   - **GUI/Web Portal**: `git fetch origin` then `git reset --hard <git_ref>` in the TitanMUX repo.
+   - **GUI/Web Portal**: `git fetch origin` then `git reset --hard <git_ref>` in the MUX-GUI repo.
    - **Firmware**: Downloads the tagged release `.bin` from the corresponding firmware release repo, then uploads via TFTP using the existing pipeline (SHA256 download verification → TFTP transfer → CRC32 post-upload check).
 4. After all updates complete, the SP version is stored locally so the dashboard can display the current system version.
 
@@ -129,7 +129,7 @@ Users (or support) can select a previous SP from a dropdown. The system will dow
 
 ### Implementation in the GUI
 
-A `ServicePackageManager` class in the TitanMUX GUI handles:
+A `ServicePackageManager` class in the MUX-GUI repo handles:
 
 - **Fetching the manifest** from this repo via GitHub API
 - **Comparing versions** of all installed components against the target SP
@@ -137,7 +137,7 @@ A `ServicePackageManager` class in the TitanMUX GUI handles:
 - **Storing the current SP** locally after a successful update
 
 ```python
-# Pseudocode — to be implemented in the TitanMUX GUI repo
+# Pseudocode — to be implemented in the MUX-GUI repo
 class ServicePackageManager:
     MANIFEST_URL = "https://api.github.com/repos/samdowrickstr/TitanMUX-Releases/contents/service_packages.json"
 
