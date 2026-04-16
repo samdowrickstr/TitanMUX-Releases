@@ -32,12 +32,12 @@
       "notes": "Development service package",
       "components": {
         "topside_gui": {
-          "version": "v26.04.20",
-          "git_ref": "a72395bd462db6e80a338beec3c7a1faf6f13351"
+          "version": "v26.04.21",
+          "git_ref": "7d67b8e6d432331c6f9c4d111dee7532940a21c5"
         },
         "web_portal": {
-          "version": "v26.04.20",
-          "git_ref": "a72395bd462db6e80a338beec3c7a1faf6f13351"
+          "version": "v26.04.21",
+          "git_ref": "7d67b8e6d432331c6f9c4d111dee7532940a21c5"
         },
         "CMB": {
           "version": "3.0.44-stable",
