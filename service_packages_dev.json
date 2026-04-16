@@ -29,7 +29,7 @@
     },
     "SP-2026.04.2-dev": {
       "released": "2026-04-16",
-      "notes": "",
+      "notes": "Development service package",
       "components": {
         "topside_gui": {
           "version": "v26.04.19",
