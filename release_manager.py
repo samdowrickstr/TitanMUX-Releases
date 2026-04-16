@@ -152,6 +152,24 @@ def calc_next_sp_key(manifest_data, channel):
     return f"{prefix}{max(existing, default=0) + 1}{suffix}"
 
 
+def git_commit_and_push(message):
+    """Stage all manifest JSON files, commit, and push to origin."""
+    cwd = SCRIPT_DIR
+    for f in MANIFEST_FILES.values():
+        git_cmd(["add", f], cwd=cwd)
+    git_cmd(["commit", "-m", message], cwd=cwd)
+    result = subprocess.run(
+        ["git", "push", "origin"],
+        cwd=cwd,
+        capture_output=True,
+        text=True,
+        timeout=30,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(result.stderr.strip() or "git push failed")
+    return result.stdout.strip()
+
+
 # ---------------------------------------------------------------------------
 # Background threads
 # ---------------------------------------------------------------------------
@@ -608,10 +626,30 @@ class ChannelTab(QWidget):
                 self.sp_list.setCurrentRow(i)
                 break
 
-        QMessageBox.information(
+        reply = QMessageBox.question(
             self, "Saved",
-            f"<b>{sp_key}</b> saved to {MANIFEST_FILES[self.channel]}",
+            f"<b>{sp_key}</b> saved to {MANIFEST_FILES[self.channel]}."
+            f"<br><br>Commit and push to GitHub?",
+            QMessageBox.Yes | QMessageBox.No,
         )
+        if reply == QMessageBox.Yes:
+            self._commit_and_push(sp_key)
+
+    def _commit_and_push(self, sp_key: str):
+        channel_lower = self.channel.lower().replace(" ", "-")
+        msg = f"Update {channel_lower}: {sp_key}"
+        try:
+            git_commit_and_push(msg)
+            QMessageBox.information(
+                self, "Pushed",
+                f"Committed and pushed to origin.<br><br>"
+                f"<code>{msg}</code>",
+            )
+        except Exception as e:
+            QMessageBox.critical(
+                self, "Push Failed",
+                f"Commit/push failed:<br><br>{e}",
+            )
 
     # ---- Forwarded from main window ----
 
