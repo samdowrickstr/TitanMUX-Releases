@@ -198,20 +198,20 @@
       "notes": "Reorder remote PIC update sequence",
       "components": {
         "topside_gui": {
-          "version": "v26.04.36",
-          "git_ref": "f50eeb0b2207bc7561b6c8214d3cddc37dae539b"
+          "version": "v26.04.37",
+          "git_ref": "6a6514286c4eca6ccfd591c9242aefc28284a2a1"
         },
         "web_portal": {
-          "version": "v26.04.36",
-          "git_ref": "f50eeb0b2207bc7561b6c8214d3cddc37dae539b"
+          "version": "v26.04.37",
+          "git_ref": "6a6514286c4eca6ccfd591c9242aefc28284a2a1"
         },
         "CMM": {
-          "version": "3.0.12-stable",
-          "tag": "CMM-v3.0.12-stable"
+          "version": "3.0.12-rc",
+          "tag": "CMM-v3.0.12-rc"
         },
         "CMB-TS": {
-          "version": "3.0.44-stable",
-          "tag": "CMB-TS-v3.0.44-stable"
+          "version": "3.0.20-rc",
+          "tag": "CMB-TS-v3.0.20-rc"
         }
       }
     }
