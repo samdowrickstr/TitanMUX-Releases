@@ -274,7 +274,15 @@ class PackageEditor(QWidget):
         self.commit_combo.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
         self.commit_combo.setMinimumWidth(300)
         self.commit_combo.currentIndexChanged.connect(self._on_commit_changed)
-        fl3.addRow("Commit:", self.commit_combo)
+        commit_row = QHBoxLayout()
+        commit_row.addWidget(self.commit_combo, 1)
+        self.refresh_btn = QPushButton("Refresh")
+        self.refresh_btn.setStyleSheet(
+            "padding:4px 10px; font-size:11px;"
+        )
+        self.refresh_btn.clicked.connect(self._refresh_commits)
+        commit_row.addWidget(self.refresh_btn)
+        fl3.addRow("Commit:", commit_row)
 
         self.gui_version_edit = QLineEdit()
         self.gui_version_edit.setPlaceholderText("Auto-calculated from commit")
@@ -411,6 +419,14 @@ class PackageEditor(QWidget):
         self.git_ref_edit.clear()
 
     # ---- Internal slots ----
+
+    def _refresh_commits(self):
+        """Clear cached commits for the current branch and re-fetch."""
+        branch = self.branch_combo.currentText()
+        if not branch:
+            return
+        self._commits_cache.pop(branch, None)
+        self._on_branch_changed(branch)
 
     def _on_branch_changed(self, branch: str):
         if not branch:
