@@ -148,16 +148,16 @@
       "notes": "Fixed PIC Updates",
       "components": {
         "topside_gui": {
-          "version": "v26.04.31",
-          "git_ref": "d1c8c3d2c8c88b181a6944f67f78da40376d9439"
+          "version": "v26.04.33",
+          "git_ref": "82d4737b436468959591d87917aebc8c6c336fa9"
         },
         "web_portal": {
-          "version": "v26.04.31",
-          "git_ref": "d1c8c3d2c8c88b181a6944f67f78da40376d9439"
+          "version": "v26.04.33",
+          "git_ref": "82d4737b436468959591d87917aebc8c6c336fa9"
         },
-        "PIC": {
-          "version": "1.7",
-          "tag": "PIC-v1.7"
+        "CMM": {
+          "version": "3.0.12-rc",
+          "tag": "CMM-v3.0.12-rc"
         }
       }
     }
