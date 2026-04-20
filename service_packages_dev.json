@@ -148,12 +148,12 @@
       "notes": "Fixed PIC Updates",
       "components": {
         "topside_gui": {
-          "version": "v26.04.29",
-          "git_ref": "9fd3ffdd641fe85f674fb5d956c51efe394d8c7b"
+          "version": "v26.04.30",
+          "git_ref": "a1ca443cad553e5f5692ad17cdc4be575d7f106d"
         },
         "web_portal": {
-          "version": "v26.04.29",
-          "git_ref": "9fd3ffdd641fe85f674fb5d956c51efe394d8c7b"
+          "version": "v26.04.30",
+          "git_ref": "a1ca443cad553e5f5692ad17cdc4be575d7f106d"
         },
         "PIC": {
           "version": "1.7",
