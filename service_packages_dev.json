@@ -247,15 +247,15 @@
     },
     "SP-2026.04.11-dev": {
       "released": "2026-04-20",
-      "notes": "Replace EarthLeakage with GroundFault; add dialogs",
+      "notes": "Add dialogs and web GUI system update page and signaling. Replace EarthLeakage with GroundFault. ",
       "components": {
         "topside_gui": {
-          "version": "v26.04.38",
-          "git_ref": "e52daa176c566620dc94961414f3657f1af40f63"
+          "version": "v26.04.39",
+          "git_ref": "01b1f0c18cacb898b9594bae6c6ee6f9106d0ffd"
         },
         "web_portal": {
-          "version": "v26.04.38",
-          "git_ref": "e52daa176c566620dc94961414f3657f1af40f63"
+          "version": "v26.04.39",
+          "git_ref": "01b1f0c18cacb898b9594bae6c6ee6f9106d0ffd"
         },
         "CMB": {
           "version": "3.0.48-rc",
