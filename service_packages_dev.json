@@ -280,12 +280,12 @@
       "notes": "Add peripheral test server and touchscreen test",
       "components": {
         "topside_gui": {
-          "version": "v26.04.46",
-          "git_ref": "7217316afa1aba54d8afdfa7f660e05cb555b164"
+          "version": "v26.04.47",
+          "git_ref": "426ee1624447efeb65a2d8c66880000439d0dd90"
         },
         "web_portal": {
-          "version": "v26.04.46",
-          "git_ref": "7217316afa1aba54d8afdfa7f660e05cb555b164"
+          "version": "v26.04.47",
+          "git_ref": "426ee1624447efeb65a2d8c66880000439d0dd90"
         },
         "CMB": {
           "version": "3.0.48-rc",
