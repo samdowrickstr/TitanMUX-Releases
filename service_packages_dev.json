@@ -277,15 +277,15 @@
     },
     "SP-2026.04.12-dev": {
       "released": "2026-04-20",
-      "notes": "",
+      "notes": "Add peripheral test server and touchscreen test",
       "components": {
         "topside_gui": {
-          "version": "v26.04.44",
-          "git_ref": "d2399e44af6f29b640c937524fb99fa8d30c5daa"
+          "version": "v26.04.45",
+          "git_ref": "0775d6b7ea42daacf3a47fe238bd300fd22a4348"
         },
         "web_portal": {
-          "version": "v26.04.44",
-          "git_ref": "d2399e44af6f29b640c937524fb99fa8d30c5daa"
+          "version": "v26.04.45",
+          "git_ref": "0775d6b7ea42daacf3a47fe238bd300fd22a4348"
         },
         "CMB": {
           "version": "3.0.48-rc",
