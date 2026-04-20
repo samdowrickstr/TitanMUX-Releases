@@ -205,9 +205,13 @@
           "version": "v26.04.36",
           "git_ref": "f50eeb0b2207bc7561b6c8214d3cddc37dae539b"
         },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
         "CMB-TS": {
-          "version": "3.0.20-rc",
-          "tag": "CMB-TS-v3.0.20-rc"
+          "version": "3.0.44-stable",
+          "tag": "CMB-TS-v3.0.44-stable"
         }
       }
     }
