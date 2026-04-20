@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.8-dev",
+  "latest": "SP-2026.04.9-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -190,6 +190,20 @@
         "web_portal": {
           "version": "v26.04.35",
           "git_ref": "06cfc616db25c335382b802c62ea42cfe70a47eb"
+        }
+      }
+    },
+    "SP-2026.04.9-dev": {
+      "released": "2026-04-20",
+      "notes": "Reorder remote PIC update sequence",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.36",
+          "git_ref": "f50eeb0b2207bc7561b6c8214d3cddc37dae539b"
+        },
+        "web_portal": {
+          "version": "v26.04.36",
+          "git_ref": "f50eeb0b2207bc7561b6c8214d3cddc37dae539b"
         }
       }
     }
