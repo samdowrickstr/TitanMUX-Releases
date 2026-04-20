@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.4-dev",
+  "latest": "SP-2026.04.5-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -94,6 +94,36 @@
         "web_portal": {
           "version": "v26.04.27",
           "git_ref": "1fac12df4d5017d90221d55e5e7c661824f676b3"
+        },
+        "CMB": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-v3.0.48-rc"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
+        "CMB-TS": {
+          "version": "3.0.44-stable",
+          "tag": "CMB-TS-v3.0.44-stable"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.04.5-dev": {
+      "released": "2026-04-20",
+      "notes": "Parallel firmware updates for same board type",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.28",
+          "git_ref": "47ec20893c5fdfa336b8ef13dc5972db839a2500"
+        },
+        "web_portal": {
+          "version": "v26.04.28",
+          "git_ref": "47ec20893c5fdfa336b8ef13dc5972db839a2500"
         },
         "CMB": {
           "version": "3.0.48-rc",
