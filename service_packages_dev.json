@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.4-dev",
+  "latest": "SP-2026.04.6-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -148,12 +148,12 @@
       "notes": "Fixed PIC Updates",
       "components": {
         "topside_gui": {
-          "version": "v26.04.30",
-          "git_ref": "a1ca443cad553e5f5692ad17cdc4be575d7f106d"
+          "version": "v26.04.31",
+          "git_ref": "d1c8c3d2c8c88b181a6944f67f78da40376d9439"
         },
         "web_portal": {
-          "version": "v26.04.30",
-          "git_ref": "a1ca443cad553e5f5692ad17cdc4be575d7f106d"
+          "version": "v26.04.31",
+          "git_ref": "d1c8c3d2c8c88b181a6944f67f78da40376d9439"
         },
         "PIC": {
           "version": "1.7",
