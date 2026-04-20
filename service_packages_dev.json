@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.5-dev",
+  "latest": "SP-2026.04.6-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -136,6 +136,24 @@
         "CMB-TS": {
           "version": "3.0.44-stable",
           "tag": "CMB-TS-v3.0.44-stable"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.04.6-dev": {
+      "released": "2026-04-20",
+      "notes": "Fixed PIC Updates",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.29",
+          "git_ref": "9fd3ffdd641fe85f674fb5d956c51efe394d8c7b"
+        },
+        "web_portal": {
+          "version": "v26.04.29",
+          "git_ref": "9fd3ffdd641fe85f674fb5d956c51efe394d8c7b"
         },
         "PIC": {
           "version": "1.10",
