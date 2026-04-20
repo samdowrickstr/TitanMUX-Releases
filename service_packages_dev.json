@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.10-dev",
+  "latest": "SP-2026.04.11-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -230,6 +230,36 @@
         "CMB": {
           "version": "3.0.44-stable",
           "tag": "CMB-v3.0.44-stable"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
+        "CMB-TS": {
+          "version": "3.0.44-stable",
+          "tag": "CMB-TS-v3.0.44-stable"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.04.11-dev": {
+      "released": "2026-04-20",
+      "notes": "Replace EarthLeakage with GroundFault; add dialogs",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.38",
+          "git_ref": "e52daa176c566620dc94961414f3657f1af40f63"
+        },
+        "web_portal": {
+          "version": "v26.04.38",
+          "git_ref": "e52daa176c566620dc94961414f3657f1af40f63"
+        },
+        "CMB": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-v3.0.48-rc"
         },
         "CMM": {
           "version": "3.0.12-stable",
