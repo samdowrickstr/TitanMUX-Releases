@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.3-dev",
+  "latest": "SP-2026.04.4-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -80,6 +80,36 @@
         "PIC": {
           "version": "1.10",
           "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.04.4-dev": {
+      "released": "2026-04-20",
+      "notes": "Update Notifications and PIC System Updates",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.26",
+          "git_ref": "99fb2909f651d7c68fb25e8fb1e0ad8bdad1ca7b"
+        },
+        "web_portal": {
+          "version": "v26.04.26",
+          "git_ref": "99fb2909f651d7c68fb25e8fb1e0ad8bdad1ca7b"
+        },
+        "CMB": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-v3.0.48-rc"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
+        "CMB-TS": {
+          "version": "3.0.44-stable",
+          "tag": "CMB-TS-v3.0.44-stable"
+        },
+        "PIC": {
+          "version": "1.11",
+          "tag": "PIC-v1.11"
         }
       }
     }
