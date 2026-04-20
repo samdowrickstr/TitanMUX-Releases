@@ -250,12 +250,12 @@
       "notes": "Add dialogs and web GUI system update page and signaling. Replace EarthLeakage with GroundFault. ",
       "components": {
         "topside_gui": {
-          "version": "v26.04.43",
-          "git_ref": "1cd8326c482c79f9d1e7da90bed70d59c85f11bd"
+          "version": "v26.04.44",
+          "git_ref": "d2399e44af6f29b640c937524fb99fa8d30c5daa"
         },
         "web_portal": {
-          "version": "v26.04.43",
-          "git_ref": "1cd8326c482c79f9d1e7da90bed70d59c85f11bd"
+          "version": "v26.04.44",
+          "git_ref": "d2399e44af6f29b640c937524fb99fa8d30c5daa"
         },
         "CMB": {
           "version": "3.0.48-rc",
