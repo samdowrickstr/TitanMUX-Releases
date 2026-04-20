@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.6-dev",
+  "latest": "SP-2026.04.7-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -158,6 +158,24 @@
         "CMM": {
           "version": "3.0.12-rc",
           "tag": "CMM-v3.0.12-rc"
+        }
+      }
+    },
+    "SP-2026.04.7-dev": {
+      "released": "2026-04-21",
+      "notes": "add rollback support",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.34",
+          "git_ref": "b9dc58dfa52b933a508b8408c91c896cfb7163ef"
+        },
+        "web_portal": {
+          "version": "v26.04.34",
+          "git_ref": "b9dc58dfa52b933a508b8408c91c896cfb7163ef"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
         }
       }
     }
