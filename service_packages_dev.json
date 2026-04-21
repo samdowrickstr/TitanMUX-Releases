@@ -307,19 +307,15 @@
     },
     "SP-2026.04.13-dev": {
       "released": "2026-04-21",
-      "notes": "",
+      "notes": "Add peripheral system checks and update handling",
       "components": {
         "topside_gui": {
-          "version": "v26.04.50",
-          "git_ref": "a8584fa9cbf1e435e0f221594e20cbdcabd532a2"
+          "version": "v26.04.51",
+          "git_ref": "fa24c22a21e7f2acdd29615e11246e1f290d9d1e"
         },
         "web_portal": {
-          "version": "v26.04.50",
-          "git_ref": "a8584fa9cbf1e435e0f221594e20cbdcabd532a2"
-        },
-        "PIC": {
-          "version": "1.9",
-          "tag": "PIC-v1.9"
+          "version": "v26.04.51",
+          "git_ref": "fa24c22a21e7f2acdd29615e11246e1f290d9d1e"
         }
       }
     }
