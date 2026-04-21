@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.15-dev",
+  "latest": "SP-2026.04.14-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -352,8 +352,8 @@
           "tag": "CMM-v3.0.12-rc"
         },
         "PIC": {
-          "version": "1.10",
-          "tag": "PIC-v1.10"
+          "version": "1.9",
+          "tag": "PIC-v1.9"
         }
       }
     },
