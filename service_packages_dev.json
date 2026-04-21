@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.14-dev",
+  "latest": "SP-2026.04.13-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -310,12 +310,24 @@
       "notes": "Add peripheral system checks and update handling",
       "components": {
         "topside_gui": {
-          "version": "v26.04.53",
-          "git_ref": "29c05e1a2e01d5cb9a4959bcb5b5392e0882e19a"
+          "version": "v26.04.59",
+          "git_ref": "a7306fde2172cdd6a0dfe51fb96fe9aebb41ab94"
         },
         "web_portal": {
-          "version": "v26.04.53",
-          "git_ref": "29c05e1a2e01d5cb9a4959bcb5b5392e0882e19a"
+          "version": "v26.04.59",
+          "git_ref": "a7306fde2172cdd6a0dfe51fb96fe9aebb41ab94"
+        },
+        "CMB": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-v3.0.48-rc"
+        },
+        "CMM": {
+          "version": "3.0.12-rc",
+          "tag": "CMM-v3.0.12-rc"
+        },
+        "CMB-TS": {
+          "version": "3.0.44-stable",
+          "tag": "CMB-TS-v3.0.44-stable"
         },
         "PIC": {
           "version": "1.9",
