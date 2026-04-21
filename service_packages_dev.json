@@ -316,6 +316,10 @@
         "web_portal": {
           "version": "v26.04.51",
           "git_ref": "fa24c22a21e7f2acdd29615e11246e1f290d9d1e"
+        },
+        "PIC": {
+          "version": "1.9",
+          "tag": "PIC-v1.9"
         }
       }
     }
