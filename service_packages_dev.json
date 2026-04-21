@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.13-dev",
+  "latest": "SP-2026.04.14-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -320,6 +320,36 @@
         "PIC": {
           "version": "1.9",
           "tag": "PIC-v1.9"
+        }
+      }
+    },
+    "SP-2026.04.14-dev": {
+      "released": "2026-04-21",
+      "notes": "",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.54",
+          "git_ref": "c83135639b960d2ed5cb41acbfa7a591eaaeedbd"
+        },
+        "web_portal": {
+          "version": "v26.04.54",
+          "git_ref": "c83135639b960d2ed5cb41acbfa7a591eaaeedbd"
+        },
+        "CMB": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-v3.0.48-rc"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
+        "CMB-TS": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-TS-v3.0.48-rc"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
         }
       }
     }
