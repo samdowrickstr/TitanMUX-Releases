@@ -317,9 +317,9 @@
           "version": "v26.04.50",
           "git_ref": "a8584fa9cbf1e435e0f221594e20cbdcabd532a2"
         },
-        "CMB": {
-          "version": "3.0.47-rc",
-          "tag": "CMB-v3.0.47-rc"
+        "CMM": {
+          "version": "3.0.10-rc",
+          "tag": "CMM-v3.0.10-rc"
         }
       }
     }
