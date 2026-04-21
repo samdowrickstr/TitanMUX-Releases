@@ -310,12 +310,12 @@
       "notes": "Add peripheral system checks and update handling",
       "components": {
         "topside_gui": {
-          "version": "v26.04.51",
-          "git_ref": "fa24c22a21e7f2acdd29615e11246e1f290d9d1e"
+          "version": "v26.04.52",
+          "git_ref": "c9f9845d85480fb2df157e117e25b62795b38ff2"
         },
         "web_portal": {
-          "version": "v26.04.51",
-          "git_ref": "fa24c22a21e7f2acdd29615e11246e1f290d9d1e"
+          "version": "v26.04.52",
+          "git_ref": "c9f9845d85480fb2df157e117e25b62795b38ff2"
         },
         "PIC": {
           "version": "1.9",
