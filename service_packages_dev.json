@@ -310,12 +310,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.04.50",
-          "git_ref": "a8584fa9cbf1e435e0f221594e20cbdcabd532a2"
+          "version": "v26.04.48",
+          "git_ref": "d4ed37d651e15cad03df4ea6135696782c02776e"
         },
         "web_portal": {
-          "version": "v26.04.50",
-          "git_ref": "a8584fa9cbf1e435e0f221594e20cbdcabd532a2"
+          "version": "v26.04.48",
+          "git_ref": "d4ed37d651e15cad03df4ea6135696782c02776e"
         },
         "CMM": {
           "version": "3.0.10-rc",
