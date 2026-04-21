@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.15-dev",
+  "latest": "SP-2026.04.16-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -376,6 +376,20 @@
         "PIC": {
           "version": "1.10",
           "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.04.16-dev": {
+      "released": "2026-04-21",
+      "notes": "",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.63",
+          "git_ref": "349a96fe6666db7891570f211860d5ad346e2303"
+        },
+        "web_portal": {
+          "version": "v26.04.63",
+          "git_ref": "349a96fe6666db7891570f211860d5ad346e2303"
         }
       }
     }
