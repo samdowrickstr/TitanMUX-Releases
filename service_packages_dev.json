@@ -411,7 +411,7 @@
     },
     "SP-2026.04.17-dev": {
       "released": "2026-04-23",
-      "notes": "I2C faile fault mask",
+      "notes": "I2C failed fault bit",
       "components": {
         "topside_gui": {
           "version": "v26.04.64",
