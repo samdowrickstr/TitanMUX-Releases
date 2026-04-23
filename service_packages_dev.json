@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.16-dev",
+  "latest": "SP-2026.04.17-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -390,6 +390,36 @@
         "web_portal": {
           "version": "v26.04.63",
           "git_ref": "349a96fe6666db7891570f211860d5ad346e2303"
+        },
+        "CMB": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-v3.0.48-rc"
+        },
+        "CMM": {
+          "version": "3.0.12-stable",
+          "tag": "CMM-v3.0.12-stable"
+        },
+        "CMB-TS": {
+          "version": "3.0.48-rc",
+          "tag": "CMB-TS-v3.0.48-rc"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.04.17-dev": {
+      "released": "2026-04-23",
+      "notes": "I2C faile fault mask",
+      "components": {
+        "topside_gui": {
+          "version": "v26.04.64",
+          "git_ref": "045f4dc427b16ef891a0f33e1e133770d8ce68ff"
+        },
+        "web_portal": {
+          "version": "v26.04.64",
+          "git_ref": "045f4dc427b16ef891a0f33e1e133770d8ce68ff"
         },
         "CMB": {
           "version": "3.0.48-rc",
