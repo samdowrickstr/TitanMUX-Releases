@@ -6,24 +6,24 @@
       "notes": "Release candidate service package",
       "components": {
         "topside_gui": {
-          "version": "v26.04.5",
-          "git_ref": "e4c04e4e834f6cfe8f00b0c9f5bea9c2b1c86577"
+          "version": "v26.04.7",
+          "git_ref": "52f8e0b5597c7bbd2a69d7046b26e93812f1acc4"
         },
         "web_portal": {
-          "version": "v26.04.1",
-          "git_ref": "e4c04e4e834f6cfe8f00b0c9f5bea9c2b1c86577"
+          "version": "v26.04.7",
+          "git_ref": "52f8e0b5597c7bbd2a69d7046b26e93812f1acc4"
         },
         "CMB": {
-          "version": "3.0.44-stable",
-          "tag": "CMB-v3.0.44-stable"
+          "version": "3.0.48",
+          "tag": "CMB-v3.0.48"
         },
         "CMM": {
-          "version": "3.0.12-stable",
-          "tag": "CMM-v3.0.12-stable"
+          "version": "3.0.13",
+          "tag": "CMM-v3.0.13"
         },
         "CMB-TS": {
-          "version": "3.0.44-stable",
-          "tag": "CMB-TS-v3.0.44-stable"
+          "version": "3.0.48",
+          "tag": "CMB-TS-v3.0.48"
         },
         "PIC": {
           "version": "1.10",
