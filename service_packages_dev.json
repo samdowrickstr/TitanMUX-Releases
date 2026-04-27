@@ -414,12 +414,12 @@
       "notes": "I2C failed fault bit",
       "components": {
         "topside_gui": {
-          "version": "v26.04.64",
-          "git_ref": "045f4dc427b16ef891a0f33e1e133770d8ce68ff"
+          "version": "v26.04.67",
+          "git_ref": "058f21c6c4824fdcc988dd5712eb83f6d15dc869"
         },
         "web_portal": {
-          "version": "v26.04.64",
-          "git_ref": "045f4dc427b16ef891a0f33e1e133770d8ce68ff"
+          "version": "v26.04.67",
+          "git_ref": "058f21c6c4824fdcc988dd5712eb83f6d15dc869"
         },
         "CMB": {
           "version": "3.0.48-rc",
