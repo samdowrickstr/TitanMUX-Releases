@@ -444,12 +444,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.04.67",
-          "git_ref": "058f21c6c4824fdcc988dd5712eb83f6d15dc869"
+          "version": "v26.05.1",
+          "git_ref": "1c456ff6a0c0cc867b38edac076d133572e9ecc9"
         },
         "web_portal": {
-          "version": "v26.04.67",
-          "git_ref": "058f21c6c4824fdcc988dd5712eb83f6d15dc869"
+          "version": "v26.05.1",
+          "git_ref": "1c456ff6a0c0cc867b38edac076d133572e9ecc9"
         },
         "CMB": {
           "version": "3.0.48",
