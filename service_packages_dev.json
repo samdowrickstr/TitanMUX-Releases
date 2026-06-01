@@ -535,15 +535,15 @@
       "components": {
         "topside_gui": {
           "version": "v26.06.0",
-          "git_ref": "c865288d97a3f357b6c9d619bba54f5fb8198c8f"
+          "git_ref": "b75d969bd12da64810e8e61a89671fe605f6bc93"
         },
         "web_portal": {
           "version": "v26.06.0",
-          "git_ref": "c865288d97a3f357b6c9d619bba54f5fb8198c8f"
+          "git_ref": "b75d969bd12da64810e8e61a89671fe605f6bc93"
         },
         "CMB": {
-          "version": "3.0.50",
-          "tag": "CMB-v3.0.50"
+          "version": "3.0.51",
+          "tag": "CMB-v3.0.51"
         },
         "CMM": {
           "version": "3.0.13",
