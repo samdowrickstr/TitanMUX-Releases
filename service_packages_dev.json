@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.05.2-dev",
+  "latest": "SP-2026.06.1-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -522,6 +522,36 @@
         "CMB-TS": {
           "version": "3.0.48",
           "tag": "CMB-TS-v3.0.48"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.06.1-dev": {
+      "released": "2026-06-01",
+      "notes": "Added support for Gig Channel Auto Negotiation - AN Enable",
+      "components": {
+        "topside_gui": {
+          "version": "v26.06.0",
+          "git_ref": "c865288d97a3f357b6c9d619bba54f5fb8198c8f"
+        },
+        "web_portal": {
+          "version": "v26.06.0",
+          "git_ref": "c865288d97a3f357b6c9d619bba54f5fb8198c8f"
+        },
+        "CMB": {
+          "version": "3.0.50",
+          "tag": "CMB-v3.0.50"
+        },
+        "CMM": {
+          "version": "3.0.13",
+          "tag": "CMM-v3.0.13"
+        },
+        "CMB-TS": {
+          "version": "3.0.50",
+          "tag": "CMB-TS-v3.0.50"
         },
         "PIC": {
           "version": "1.10",
