@@ -505,11 +505,11 @@
       "components": {
         "topside_gui": {
           "version": "v26.06.0",
-          "git_ref": "e6b514f0bb39e9027cbbce0403f6379f9c44db59"
+          "git_ref": "97f39450239c41a00423febaa902da0de5c36266"
         },
         "web_portal": {
           "version": "v26.06.0",
-          "git_ref": "e6b514f0bb39e9027cbbce0403f6379f9c44db59"
+          "git_ref": "97f39450239c41a00423febaa902da0de5c36266"
         },
         "CMB": {
           "version": "3.0.49",
