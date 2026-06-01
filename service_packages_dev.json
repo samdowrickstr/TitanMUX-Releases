@@ -501,15 +501,15 @@
     },
     "SP-2026.05.2-dev": {
       "released": "2026-05-28",
-      "notes": "",
+      "notes": "Added support for Gig Channel Auto Negotiation",
       "components": {
         "topside_gui": {
           "version": "v26.06.0",
-          "git_ref": "38431156bd25ef621f49d2f2c62331bccb416802"
+          "git_ref": "0ed9887ed4d54f79af8c4b98dad9c7efc6620503"
         },
         "web_portal": {
           "version": "v26.06.0",
-          "git_ref": "38431156bd25ef621f49d2f2c62331bccb416802"
+          "git_ref": "0ed9887ed4d54f79af8c4b98dad9c7efc6620503"
         },
         "CMB": {
           "version": "3.0.49",
