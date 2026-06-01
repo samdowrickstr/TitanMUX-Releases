@@ -534,12 +534,12 @@
       "notes": "Added support for Gig Channel Auto Negotiation - AN Enable",
       "components": {
         "topside_gui": {
-          "version": "v26.06.12",
-          "git_ref": "128c670848db3eeedce3ec8c393a6db98c3d5eb6"
+          "version": "v26.06.13",
+          "git_ref": "e1bc197d5705f4085292b076d3a38ae3b4d970db"
         },
         "web_portal": {
-          "version": "v26.06.12",
-          "git_ref": "128c670848db3eeedce3ec8c393a6db98c3d5eb6"
+          "version": "v26.06.13",
+          "git_ref": "e1bc197d5705f4085292b076d3a38ae3b4d970db"
         },
         "CMB": {
           "version": "3.0.51",
