@@ -504,12 +504,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.05.10",
-          "git_ref": "d7c076d484c9d8aaf7c5f63d5150b6deb530fb96"
+          "version": "v26.06.0",
+          "git_ref": "94f085841d823487c4d2094f568cfa77cae6b9b2"
         },
         "web_portal": {
-          "version": "v26.05.10",
-          "git_ref": "d7c076d484c9d8aaf7c5f63d5150b6deb530fb96"
+          "version": "v26.06.0",
+          "git_ref": "94f085841d823487c4d2094f568cfa77cae6b9b2"
         },
         "CMB": {
           "version": "3.0.49",
