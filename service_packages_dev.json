@@ -531,7 +531,7 @@
     },
     "SP-2026.06.1-dev": {
       "released": "2026-06-01",
-      "notes": "Added support for Gig Channel Auto Negotiation - AN Enable",
+      "notes": "Added support for Gig Channel Auto Negotiation. Manual implemented into Web GUI.",
       "components": {
         "topside_gui": {
           "version": "v26.06.18",
