@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.1-rc",
+  "latest": "SP-2026.06.1-rc",
   "packages": {
     "SP-2026.04.1-rc": {
       "released": "2026-04-16",
@@ -24,6 +24,36 @@
         "CMB-TS": {
           "version": "3.0.48",
           "tag": "CMB-TS-v3.0.48"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
+        }
+      }
+    },
+    "SP-2026.06.1-rc": {
+      "released": "2026-06-05",
+      "notes": "Remote updating of power systems introduced, updated ground fault, Gig Channel Auto Neg, UI updates",
+      "components": {
+        "topside_gui": {
+          "version": "v26.06.1",
+          "git_ref": "f08917b42b3212f8365c678e83aac74e08a61b42"
+        },
+        "web_portal": {
+          "version": "v26.06.1",
+          "git_ref": "f08917b42b3212f8365c678e83aac74e08a61b42"
+        },
+        "CMB": {
+          "version": "3.0.51-rc",
+          "tag": "CMB-v3.0.51-rc"
+        },
+        "CMM": {
+          "version": "3.0.13",
+          "tag": "CMM-v3.0.13"
+        },
+        "CMB-TS": {
+          "version": "3.0.51-rc",
+          "tag": "CMB-TS-v3.0.51-rc"
         },
         "PIC": {
           "version": "1.10",
