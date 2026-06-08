@@ -115,28 +115,45 @@ def get_commits(branch, limit=60):
     return out
 
 
-def calc_gui_version(commit_hash):
-    """Return vYY.MM.CC for a commit based on its date and monthly position."""
-    date_str = git_cmd(["show", "-s", "--format=%ci", commit_hash])
+def calc_gui_version(commit_hash, path_filter=None):
+    """Return vYY.MM.CC for a commit, mirroring the MUX GUI's own calculation.
+
+    The GUI is the source of truth for version numbers.  Its
+    ``calculate_version_from_git`` (firmware_versions.py) derives YY.MM from the
+    latest commit touching a path filter and counts that month's commits for the
+    same filter via ``git log --since=<MM>-01 --until=<MM>-31 --oneline``.  We
+    replicate that exact logic here so manifest versions always match what the
+    GUI displays.  Pass ``path_filter="*.py"`` for the desktop GUI and
+    ``"webgui/"`` for the web portal.
+    """
+    date_cmd = ["log", "-1", commit_hash, "--format=%ci"]
+    if path_filter:
+        date_cmd.extend(["--", path_filter])
+    date_str = git_cmd(date_cmd)
     if not date_str:
         return ""
-    dt = datetime.strptime(date_str[:10], "%Y-%m-%d")
-    yy = dt.strftime("%y")
-    mm = dt.strftime("%m")
-    after = f"{dt.year}-{int(mm):02d}-01"
-    before = (
-        f"{dt.year + 1}-01-01"
-        if dt.month == 12
-        else f"{dt.year}-{dt.month + 1:02d}-01"
-    )
-    raw = git_cmd([
-        "rev-list", "--count", commit_hash,
-        f"--after={after}", f"--before={before}",
-    ])
-    try:
-        cc = int(raw)
-    except ValueError:
-        cc = 0
+    ymd = date_str[:10]            # YYYY-MM-DD
+    yy = ymd[2:4]
+    mm = ymd[5:7]
+    # Count that month's commits using the first day of the *next* month as an
+    # exclusive upper bound.  A hard-coded "-31" yields invalid dates for short
+    # months (e.g. "2026-06-31") that git's approxidate parser mangles and
+    # undercounts, so we compute the real month boundary instead.
+    cal_year = int(ymd[:4])
+    cal_month = int(mm)
+    month_start = f"{ymd[:7]}-01 00:00:00"  # YYYY-MM-01
+    if cal_month == 12:
+        next_month_start = f"{cal_year + 1}-01-01 00:00:00"
+    else:
+        next_month_start = f"{cal_year}-{cal_month + 1:02d}-01 00:00:00"
+    count_cmd = [
+        "log", commit_hash,
+        f"--since={month_start}", f"--until={next_month_start}", "--oneline",
+    ]
+    if path_filter:
+        count_cmd.extend(["--", path_filter])
+    raw = git_cmd(count_cmd)
+    cc = len([line for line in raw.splitlines() if line.strip()])
     return f"v{yy}.{mm}.{cc}"
 
 
@@ -483,13 +500,17 @@ class PackageEditor(QWidget):
             return
         h = self._current_commits[index][0]
         self.git_ref_edit.setText(h)
-        v = calc_gui_version(h)
-        if v:
-            self.gui_version_edit.setText(v)
-            # Auto-sync web version if it looks auto-generated or is empty
-            cur_web = self.web_version_edit.text()
-            if not cur_web or cur_web.startswith("v"):
-                self.web_version_edit.setText(v)
+        # GUI is source of truth: count *.py for the desktop GUI and webgui/ for
+        # the web portal, exactly as the GUI's own version calculator does.
+        gui_v = calc_gui_version(h, "*.py")
+        web_v = calc_gui_version(h, "webgui/")
+        if gui_v:
+            self.gui_version_edit.setText(gui_v)
+        # Only overwrite the web field when it's empty or still auto-generated,
+        # so a manual override is preserved.
+        cur_web = self.web_version_edit.text()
+        if web_v and (not cur_web or cur_web.startswith("v")):
+            self.web_version_edit.setText(web_v)
 
 
 # ---------------------------------------------------------------------------
