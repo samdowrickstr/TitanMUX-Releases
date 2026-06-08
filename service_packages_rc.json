@@ -82,8 +82,8 @@
           "tag": "CMM-v3.0.13"
         },
         "CMB-TS": {
-          "version": "3.0.51-rc",
-          "tag": "CMB-TS-v3.0.51-rc"
+          "version": "3.0.50",
+          "tag": "CMB-TS-v3.0.50"
         },
         "PIC": {
           "version": "1.8",
