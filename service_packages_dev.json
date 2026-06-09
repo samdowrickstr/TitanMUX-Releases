@@ -564,7 +564,7 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.06.20",
+          "version": "",
           "git_ref": "076c0f8a46a99f6feb470d1783450489dca20c77"
         },
         "web_portal": {
