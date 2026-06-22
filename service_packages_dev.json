@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.06.2-dev",
+  "latest": "SP-2026.06.3-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -570,6 +570,36 @@
         "web_portal": {
           "version": "v26.06.2",
           "git_ref": "076c0f8a46a99f6feb470d1783450489dca20c77"
+        }
+      }
+    },
+    "SP-2026.06.3-dev": {
+      "released": "2026-06-22",
+      "notes": "VLANS and GFD Fix",
+      "components": {
+        "topside_gui": {
+          "version": "v26.06.3",
+          "git_ref": "7e263492f0585734bd48d138cea1658ccfd7bfe5"
+        },
+        "web_portal": {
+          "version": "v26.06.2",
+          "git_ref": "7e263492f0585734bd48d138cea1658ccfd7bfe5"
+        },
+        "CMB": {
+          "version": "3.0.52-beta",
+          "tag": "CMB-v3.0.52-beta"
+        },
+        "CMM": {
+          "version": "3.0.14-beta",
+          "tag": "CMM-v3.0.14-beta"
+        },
+        "CMB-TS": {
+          "version": "3.0.52-beta",
+          "tag": "CMB-TS-v3.0.52-beta"
+        },
+        "PIC": {
+          "version": "1.10",
+          "tag": "PIC-v1.10"
         }
       }
     }
