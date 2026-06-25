@@ -698,24 +698,24 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.06.6",
-          "git_ref": "66c9b310ff9747a20fffc08dcdd2766e97093100"
+          "version": "v26.06.7",
+          "git_ref": "5f318d5521a81df3acf5ef1e2f934244637dbda4"
         },
         "web_portal": {
           "version": "v26.06.2",
-          "git_ref": "66c9b310ff9747a20fffc08dcdd2766e97093100"
+          "git_ref": "5f318d5521a81df3acf5ef1e2f934244637dbda4"
         },
         "CMB": {
-          "version": "3.0.69-beta",
-          "tag": "CMB-v3.0.69-beta"
+          "version": "3.0.70-beta",
+          "tag": "CMB-v3.0.70-beta"
         },
         "CMM": {
           "version": "3.0.18-beta",
           "tag": "CMM-v3.0.18-beta"
         },
         "CMB-TS": {
-          "version": "3.0.69-beta",
-          "tag": "CMB-TS-v3.0.69-beta"
+          "version": "3.0.70-beta",
+          "tag": "CMB-TS-v3.0.70-beta"
         },
         "PIC": {
           "version": "1.11",
