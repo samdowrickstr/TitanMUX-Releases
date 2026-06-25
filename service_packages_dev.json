@@ -706,16 +706,16 @@
           "git_ref": "66c9b310ff9747a20fffc08dcdd2766e97093100"
         },
         "CMB": {
-          "version": "3.0.68-beta",
-          "tag": "CMB-v3.0.68-beta"
+          "version": "3.0.69-beta",
+          "tag": "CMB-v3.0.69-beta"
         },
         "CMM": {
           "version": "3.0.18-beta",
           "tag": "CMM-v3.0.18-beta"
         },
         "CMB-TS": {
-          "version": "3.0.68-beta",
-          "tag": "CMB-TS-v3.0.68-beta"
+          "version": "3.0.69-beta",
+          "tag": "CMB-TS-v3.0.69-beta"
         },
         "PIC": {
           "version": "1.11",
