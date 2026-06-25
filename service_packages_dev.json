@@ -668,12 +668,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.06.5",
-          "git_ref": "0f4e59fadcfc0fa31cbc921e6435a2dba185794e"
+          "version": "v26.06.6",
+          "git_ref": "66c9b310ff9747a20fffc08dcdd2766e97093100"
         },
         "web_portal": {
           "version": "v26.06.2",
-          "git_ref": "0f4e59fadcfc0fa31cbc921e6435a2dba185794e"
+          "git_ref": "66c9b310ff9747a20fffc08dcdd2766e97093100"
         },
         "CMB": {
           "version": "3.0.66-beta",
