@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.06.7-dev",
+  "latest": "SP-2026.07.1-dev",
   "packages": {
     "SP-2026.04.1-dev": {
       "released": "2026-04-16",
@@ -704,6 +704,36 @@
         "web_portal": {
           "version": "v26.06.2",
           "git_ref": "5f318d5521a81df3acf5ef1e2f934244637dbda4"
+        },
+        "CMB": {
+          "version": "3.0.70-beta",
+          "tag": "CMB-v3.0.70-beta"
+        },
+        "CMM": {
+          "version": "3.0.18-beta",
+          "tag": "CMM-v3.0.18-beta"
+        },
+        "CMB-TS": {
+          "version": "3.0.70-beta",
+          "tag": "CMB-TS-v3.0.70-beta"
+        },
+        "PIC": {
+          "version": "1.11",
+          "tag": "PIC-v1.11"
+        }
+      }
+    },
+    "SP-2026.07.1-dev": {
+      "released": "2026-07-07",
+      "notes": "Overtemp lockout",
+      "components": {
+        "topside_gui": {
+          "version": "v26.07.1",
+          "git_ref": "25d8d808c34f68b8024e015ea9f5f2314542d2ba"
+        },
+        "web_portal": {
+          "version": "v26.07.1",
+          "git_ref": "25d8d808c34f68b8024e015ea9f5f2314542d2ba"
         },
         "CMB": {
           "version": "3.0.70-beta",
