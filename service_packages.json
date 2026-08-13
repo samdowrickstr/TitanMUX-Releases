@@ -14,16 +14,16 @@
           "git_ref": "166d61397c765dca4ac3e9a7a83d329dc9022f0e"
         },
         "CMB": {
-          "version": "3.0.70",
-          "tag": "CMB-v3.0.70"
+          "version": "3.0.71",
+          "tag": "CMB-v3.0.71"
         },
         "CMM": {
           "version": "3.0.18",
           "tag": "CMM-v3.0.18"
         },
         "CMB-TS": {
-          "version": "3.0.70",
-          "tag": "CMB-TS-v3.0.70"
+          "version": "3.0.71",
+          "tag": "CMB-TS-v3.0.71"
         },
         "PIC": {
           "version": "1.14",
