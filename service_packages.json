@@ -1,17 +1,17 @@
 {
-  "latest": "SP-2026.08.2",
+  "latest": "SP-2026.08.1",
   "packages": {
     "SP-2026.08.1": {
       "released": "2026-08-13",
       "notes": "Initial service pack release",
       "components": {
         "topside_gui": {
-          "version": "v26.08.4",
-          "git_ref": "764eefd61ca40929278ee918b952157125e4062e"
+          "version": "v26.08.5",
+          "git_ref": "166d61397c765dca4ac3e9a7a83d329dc9022f0e"
         },
         "web_portal": {
           "version": "v26.08.1",
-          "git_ref": "764eefd61ca40929278ee918b952157125e4062e"
+          "git_ref": "166d61397c765dca4ac3e9a7a83d329dc9022f0e"
         },
         "CMB": {
           "version": "3.0.70",
@@ -28,20 +28,6 @@
         "PIC": {
           "version": "1.14",
           "tag": "PIC-v1.14"
-        }
-      }
-    },
-    "SP-2026.08.2": {
-      "released": "2026-08-13",
-      "notes": "",
-      "components": {
-        "topside_gui": {
-          "version": "v26.08.5",
-          "git_ref": "166d61397c765dca4ac3e9a7a83d329dc9022f0e"
-        },
-        "web_portal": {
-          "version": "v26.08.1",
-          "git_ref": "166d61397c765dca4ac3e9a7a83d329dc9022f0e"
         }
       }
     }
