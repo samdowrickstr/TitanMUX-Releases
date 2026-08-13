@@ -6,12 +6,12 @@
       "notes": "Initial service pack release",
       "components": {
         "topside_gui": {
-          "version": "v26.03.2",
-          "git_ref": "7f6b6426a91c634d34797b82c8ce9f9dea0a58fe"
+          "version": "v26.08.2",
+          "git_ref": "af23e36d16bb53bc0b3b1a9e889e4982998d93b9"
         },
         "web_portal": {
-          "version": "v26.02.3",
-          "git_ref": "7f6b6426a91c634d34797b82c8ce9f9dea0a58fe"
+          "version": "v26.08.1",
+          "git_ref": "af23e36d16bb53bc0b3b1a9e889e4982998d93b9"
         },
         "CMB": {
           "version": "3.0.70",
