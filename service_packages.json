@@ -1,33 +1,33 @@
 {
-  "latest": "SP-2026.04.1",
+  "latest": "SP-2026.08.1",
   "packages": {
-    "SP-2026.04.1": {
-      "released": "2026-04-27",
-      "notes": "Initial Release",
+    "SP-2026.08.1": {
+      "released": "2026-08-13",
+      "notes": "Initial service pack release",
       "components": {
         "topside_gui": {
-          "version": "v26.04.4",
-          "git_ref": "ead23bf3ba8c3c2399fdadf239a8bb45a560610c"
+          "version": "v26.03.2",
+          "git_ref": "7f6b6426a91c634d34797b82c8ce9f9dea0a58fe"
         },
         "web_portal": {
-          "version": "v26.04.4",
-          "git_ref": "ead23bf3ba8c3c2399fdadf239a8bb45a560610c"
+          "version": "v26.02.3",
+          "git_ref": "7f6b6426a91c634d34797b82c8ce9f9dea0a58fe"
         },
         "CMB": {
-          "version": "3.0.48",
-          "tag": "CMB-v3.0.48"
+          "version": "3.0.70",
+          "tag": "CMB-v3.0.70"
         },
         "CMM": {
-          "version": "3.0.13",
-          "tag": "CMM-v3.0.13"
+          "version": "3.0.18",
+          "tag": "CMM-v3.0.18"
         },
         "CMB-TS": {
-          "version": "3.0.48",
-          "tag": "CMB-TS-v3.0.48"
+          "version": "3.0.70",
+          "tag": "CMB-TS-v3.0.70"
         },
         "PIC": {
-          "version": "1.10",
-          "tag": "PIC-v1.10"
+          "version": "1.14",
+          "tag": "PIC-v1.14"
         }
       }
     }
