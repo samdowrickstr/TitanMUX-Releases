@@ -24,6 +24,10 @@
         "CMB-TS": {
           "version": "3.0.71",
           "tag": "CMB-TS-v3.0.71"
+        },
+        "PIC": {
+          "version": "1.14",
+          "tag": "PIC-v1.14"
         }
       }
     }
