@@ -12,20 +12,18 @@
         "web_portal": {
           "version": "v26.08.2",
           "git_ref": "a4f10d12355e9355b45b3892ee4058258e025ada"
-        }
-      }
-    },
-    "SP-2026.08.2": {
-      "released": "2026-08-25",
-      "notes": "",
-      "components": {
-        "topside_gui": {
-          "version": "v26.08.13",
-          "git_ref": "a4f10d12355e9355b45b3892ee4058258e025ada"
         },
-        "web_portal": {
-          "version": "v26.08.2",
-          "git_ref": "a4f10d12355e9355b45b3892ee4058258e025ada"
+        "CMB": {
+          "version": "3.0.48",
+          "tag": "CMB-v3.0.48"
+        },
+        "CMM": {
+          "version": "3.0.13",
+          "tag": "CMM-v3.0.13"
+        },
+        "CMB-TS": {
+          "version": "3.0.48",
+          "tag": "CMB-TS-v3.0.48"
         }
       }
     }
