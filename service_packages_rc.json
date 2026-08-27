@@ -6,12 +6,12 @@
       "notes": "Release candidate service package",
       "components": {
         "topside_gui": {
-          "version": "v26.04.7",
-          "git_ref": "52f8e0b5597c7bbd2a69d7046b26e93812f1acc4"
+          "version": "v26.08.19",
+          "git_ref": "93a27d7cd9cab048236d5e1d115eb458257772bc"
         },
         "web_portal": {
-          "version": "v26.04.7",
-          "git_ref": "52f8e0b5597c7bbd2a69d7046b26e93812f1acc4"
+          "version": "v26.08.3",
+          "git_ref": "93a27d7cd9cab048236d5e1d115eb458257772bc"
         },
         "CMB": {
           "version": "3.0.48",
@@ -156,12 +156,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.08.18",
-          "git_ref": "d1fe810cf9c47bc6c7ca962aa566bdb7a2cc4431"
+          "version": "v26.08.19",
+          "git_ref": "93a27d7cd9cab048236d5e1d115eb458257772bc"
         },
         "web_portal": {
           "version": "v26.08.3",
-          "git_ref": "d1fe810cf9c47bc6c7ca962aa566bdb7a2cc4431"
+          "git_ref": "93a27d7cd9cab048236d5e1d115eb458257772bc"
         },
         "CMB": {
           "version": "3.0.80",
