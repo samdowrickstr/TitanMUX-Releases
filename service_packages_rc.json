@@ -156,12 +156,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.08.20",
-          "git_ref": "3fdac1ba9fc630e75b34ce3fe4b78f856a66a1d5"
+          "version": "v26.08.21",
+          "git_ref": "5d8c8e9c8ff0455a7c80e7e5d06662ffcb8c1ed7"
         },
         "web_portal": {
           "version": "v26.08.3",
-          "git_ref": "3fdac1ba9fc630e75b34ce3fe4b78f856a66a1d5"
+          "git_ref": "5d8c8e9c8ff0455a7c80e7e5d06662ffcb8c1ed7"
         },
         "CMB": {
           "version": "3.0.80",
