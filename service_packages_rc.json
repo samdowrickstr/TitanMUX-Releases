@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.08.2-rc",
+  "latest": "SP-2026.08.3-rc",
   "packages": {
     "SP-2026.04.1-rc": {
       "released": "2026-04-16",
@@ -144,6 +144,36 @@
         "CMB-TS": {
           "version": "3.0.79",
           "tag": "CMB-TS-v3.0.79"
+        },
+        "PIC": {
+          "version": "1.14",
+          "tag": "PIC-v1.14"
+        }
+      }
+    },
+    "SP-2026.08.3-rc": {
+      "released": "2026-08-27",
+      "notes": "",
+      "components": {
+        "topside_gui": {
+          "version": "v26.08.17",
+          "git_ref": "16130e56eef477273ec93ebb37fb5c1eb10e0b86"
+        },
+        "web_portal": {
+          "version": "v26.08.3",
+          "git_ref": "16130e56eef477273ec93ebb37fb5c1eb10e0b86"
+        },
+        "CMB": {
+          "version": "3.0.80",
+          "tag": "CMB-v3.0.80"
+        },
+        "CMM": {
+          "version": "3.0.23",
+          "tag": "CMM-v3.0.23"
+        },
+        "CMB-TS": {
+          "version": "3.0.80",
+          "tag": "CMB-TS-v3.0.80"
         },
         "PIC": {
           "version": "1.14",
