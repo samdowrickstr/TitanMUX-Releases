@@ -1,17 +1,17 @@
 {
-  "latest": "SP-2026.08.3-rc",
+  "latest": "SP-2026.04.1-rc",
   "packages": {
     "SP-2026.04.1-rc": {
       "released": "2026-04-16",
       "notes": "Release candidate service package",
       "components": {
         "topside_gui": {
-          "version": "v26.08.19",
-          "git_ref": "93a27d7cd9cab048236d5e1d115eb458257772bc"
+          "version": "v26.09.4",
+          "git_ref": "ae537560df7baee13c1adf38234a5dd102114739"
         },
         "web_portal": {
-          "version": "v26.08.3",
-          "git_ref": "93a27d7cd9cab048236d5e1d115eb458257772bc"
+          "version": "v26.08.5",
+          "git_ref": "ae537560df7baee13c1adf38234a5dd102114739"
         },
         "CMB": {
           "version": "3.0.48",
