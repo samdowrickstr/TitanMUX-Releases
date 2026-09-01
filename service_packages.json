@@ -12,22 +12,6 @@
         "web_portal": {
           "version": "v26.08.2",
           "git_ref": "4d1850186da1caf7ae9acacb49fef653dd4a3b96"
-        },
-        "CMB": {
-          "version": "3.0.48",
-          "tag": "CMB-v3.0.48"
-        },
-        "CMM": {
-          "version": "3.0.13",
-          "tag": "CMM-v3.0.13"
-        },
-        "CMB-TS": {
-          "version": "3.0.48",
-          "tag": "CMB-TS-v3.0.48"
-        },
-        "PIC": {
-          "version": "1.8",
-          "tag": "PIC-v1.8"
         }
       }
     }
