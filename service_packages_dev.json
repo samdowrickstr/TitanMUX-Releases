@@ -878,12 +878,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.08.3",
-          "git_ref": "77ab986b3a7932b6f4119fee91b584c316617d0b"
+          "version": "v26.09.2",
+          "git_ref": "7c82ed69e1bd2f588cf509e3e477f9e938a1ad3d"
         },
         "web_portal": {
-          "version": "v26.08.1",
-          "git_ref": "77ab986b3a7932b6f4119fee91b584c316617d0b"
+          "version": "v26.08.2",
+          "git_ref": "7c82ed69e1bd2f588cf509e3e477f9e938a1ad3d"
         },
         "CMB": {
           "version": "3.0.70-beta",
