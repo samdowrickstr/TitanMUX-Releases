@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.09.1-faultmask",
+  "latest": "SP-2026.09.2-faultmask",
   "packages": {
     "SP-2026.09.1-faultmask": {
       "released": "2026-09-04",
@@ -12,6 +12,20 @@
         "web_portal": {
           "version": "v26.08.2",
           "git_ref": "c9738d8dd6b3127e2b59cd46240984059f2f62e6"
+        }
+      }
+    },
+    "SP-2026.09.2-faultmask": {
+      "released": "2026-09-04",
+      "notes": "Targeted build off stable SP-2026.08.1. Ignores module fault bits the reporting board's firmware cannot set, which stops a phantom AC Switch 'General overcurrent' alarm and the log flooding it caused. Adds a bounded grace period so no false alarm slips through at start-up before board identification arrives. GUI change only - no firmware components, so no board is reprogrammed by this package.",
+      "components": {
+        "topside_gui": {
+          "version": "v26.09.6",
+          "git_ref": "0cd538c6e5f03117bebff4ed0e92dd6f2a42fbf2"
+        },
+        "web_portal": {
+          "version": "v26.08.2",
+          "git_ref": "0cd538c6e5f03117bebff4ed0e92dd6f2a42fbf2"
         }
       }
     }
