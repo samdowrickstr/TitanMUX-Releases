@@ -1,0 +1,19 @@
+{
+  "latest": "SP-2026.09.1-faultmask",
+  "packages": {
+    "SP-2026.09.1-faultmask": {
+      "released": "2026-09-04",
+      "notes": "Targeted build off stable SP-2026.08.1. Ignores module fault bits the reporting board's firmware cannot set, which stops a phantom AC Switch 'General overcurrent' alarm and the log flooding it caused. GUI change only - no firmware components, so no board is reprogrammed by this package.",
+      "components": {
+        "topside_gui": {
+          "version": "v26.09.5",
+          "git_ref": "c9738d8dd6b3127e2b59cd46240984059f2f62e6"
+        },
+        "web_portal": {
+          "version": "v26.08.2",
+          "git_ref": "c9738d8dd6b3127e2b59cd46240984059f2f62e6"
+        }
+      }
+    }
+  }
+}
