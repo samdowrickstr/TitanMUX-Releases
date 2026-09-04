@@ -1,5 +1,5 @@
 {
-  "latest": "SP-2026.04.1-rc",
+  "latest": "SP-2026.08.3-rc",
   "packages": {
     "SP-2026.04.1-rc": {
       "released": "2026-04-16",
@@ -156,12 +156,12 @@
       "notes": "",
       "components": {
         "topside_gui": {
-          "version": "v26.09.2",
-          "git_ref": "5f698bf697f556ce6a2dc6b86b3c6e3de9aeed9a"
+          "version": "v26.09.4",
+          "git_ref": "e55471a3734625a7475565716606bfac85080c10"
         },
         "web_portal": {
           "version": "v26.08.5",
-          "git_ref": "5f698bf697f556ce6a2dc6b86b3c6e3de9aeed9a"
+          "git_ref": "e55471a3734625a7475565716606bfac85080c10"
         },
         "CMB": {
           "version": "3.0.80",
