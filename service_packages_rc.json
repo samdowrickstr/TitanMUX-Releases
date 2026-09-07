@@ -183,15 +183,15 @@
     },
     "SP-2026.09.1-rc": {
       "released": "2026-09-04",
-      "notes": "",
+      "notes": "Fleet reporting records both TitanMUX serial numbers (topside and subsea) with their MX- prefix",
       "components": {
         "topside_gui": {
-          "version": "v26.09.12",
-          "git_ref": "36f9079ef47bb9d4b7b00ac5867781d4249cbd84"
+          "version": "v26.09.13",
+          "git_ref": "ba9e47cbad7ec76770d46572cc07a9fc3a7d8be4"
         },
         "web_portal": {
           "version": "v26.09.1",
-          "git_ref": "36f9079ef47bb9d4b7b00ac5867781d4249cbd84"
+          "git_ref": "ba9e47cbad7ec76770d46572cc07a9fc3a7d8be4"
         },
         "CMB": {
           "version": "3.0.80",
