@@ -213,7 +213,7 @@
     },
     "SP-2026.09.2-rc": {
       "released": "2026-09-07",
-      "notes": "",
+      "notes": "Roll Back",
       "components": {
         "topside_gui": {
           "version": "v26.09.13",
