@@ -14,9 +14,9 @@ The TitanMUX system is made up of the following independently versioned componen
 |-----------|------------------|--------|---------------|
 | **Topside GUI** | CalVer (`vYY.MM.CC`) | [MUX-GUI](https://github.com/Subsea-Technology-Rentals/MUX-GUI) repo, `*.py` | `git reset --hard <commit>` |
 | **Web Portal** | CalVer (`vYY.MM.CC`) | [MUX-GUI](https://github.com/Subsea-Technology-Rentals/MUX-GUI) repo, `webgui/` | `git reset --hard <commit>` (same repo, path-filtered version) |
-| **CMB Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMB](https://github.com/samdowrickstr/MUX-Firmware-Release-CMB) | GitHub release download → TFTP upload |
-| **CMM Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMM](https://github.com/samdowrickstr/MUX-Firmware-Release-CMM) | GitHub release download → TFTP upload |
-| **CMB-TS Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMB-TS](https://github.com/samdowrickstr/MUX-Firmware-Release-CMB-TS) | GitHub release download → TFTP upload |
+| **CMB Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMB](https://github.com/Subsea-Technology-Rentals/MUX-Firmware-Release-CMB) | GitHub release download → TFTP upload |
+| **CMM Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMM](https://github.com/Subsea-Technology-Rentals/MUX-Firmware-Release-CMM) | GitHub release download → TFTP upload |
+| **CMB-TS Firmware** | SemVer (`X.Y.Z-suffix`) | [MUX-Firmware-Release-CMB-TS](https://github.com/Subsea-Technology-Rentals/MUX-Firmware-Release-CMB-TS) | GitHub release download → TFTP upload |
 
 ### Version Scheme Details
 
@@ -139,7 +139,7 @@ A `ServicePackageManager` class in the MUX-GUI repo handles:
 ```python
 # Pseudocode — to be implemented in the MUX-GUI repo
 class ServicePackageManager:
-    MANIFEST_URL = "https://api.github.com/repos/samdowrickstr/TitanMUX-Releases/contents/service_packages.json"
+    MANIFEST_URL = "https://api.github.com/repos/Subsea-Technology-Rentals/TitanMUX-Releases/contents/service_packages.json"
 
     def fetch_manifest(self):
         """Download service_packages.json from GitHub."""
